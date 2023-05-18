@@ -1,0 +1,28 @@
+
+.Box {
+    height: auto;
+    width: auto;
+    border: 5px solid black;
+    background-color: rgb(255, 0, 170);
+    top : 200px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    left: 100%;
+    transform: translateX(-100%);
+    flex-direction: row-reverse
+}
+.main { 
+    height: 70px;
+    width: 50px;
+    border: 5px solid black;
+    background-color: blue;
+    top : 200px;
+
+    right: 20%;
+    transition: 1s ease-in-out;
+}
+.main:hover{
+    transition: 10px;
+}
