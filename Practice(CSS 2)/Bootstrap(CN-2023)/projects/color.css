@@ -1,0 +1,66 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #17a2b8, #3a09b6);
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-input {
+  position: relative;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.search-input input[type="text"] {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 40px 10px 15px;
+  font-size: 16px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.search-input input[type="text"]::placeholder {
+  font-size: 16px;
+}
+
+.search-input .voice-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-item img {
+  border-radius: 50%;
+}
+
+.navbar-custom .col {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-custom .col {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+
+#main-header {
+    height: 400px;
+}
+
+#about-site {
+    color: grey;
+}
+
+#main{
+    background-color: red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    tra
+}
+div{
+    background-position: width: display: ;;
+}
+
+#blog-content {
+    width: 1000px;
+}
+
+.h-style  {
+    color: darkslategrey;
+    font-family : monospace;
+    font-size : 18px;
+}
+
+div{
+    grid-template: none;
+    justify-content: first baseline;
+
+}
